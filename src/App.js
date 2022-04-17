@@ -7,6 +7,8 @@ import Footer from "./Components/Shared/Footer/Footer";
 import Home from "./Components/Home/Home/Home";
 import ServiceDetail from "./Components/ServiceDetail/ServiceDetail";
 import Error from "./Components/Shared/Error/Error";
+import Login from "./Components/Login/Login";
+import Register from "./Components/Register/Register";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           element={<ServiceDetail></ServiceDetail>}
         />
         <Route path="/about" element={<About></About>} />
+        <Route path="/login" element={<Login></Login>} />
+        <Route path="/register" element={<Register></Register>} />
         <Route path="*" element={<Error></Error>} />
       </Routes>
       <Footer></Footer>
