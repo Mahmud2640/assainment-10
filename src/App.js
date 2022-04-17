@@ -9,6 +9,8 @@ import ServiceDetail from "./Components/ServiceDetail/ServiceDetail";
 import Error from "./Components/Shared/Error/Error";
 import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
+import RequirdAuth from "./Components/RequirdAuth/RequirdAuth";
+import Checkout from "./Components/CheackOut/Checkout";
 
 function App() {
   return (
@@ -24,6 +26,11 @@ function App() {
         <Route path="/about" element={<About></About>} />
         <Route path="/login" element={<Login></Login>} />
         <Route path="/register" element={<Register></Register>} />
+        <Route path="/checkout" element={
+          <RequirdAuth>
+            <Checkout></Checkout>
+          </RequirdAuth>
+        } />
         <Route path="*" element={<Error></Error>} />
       </Routes>
       <Footer></Footer>
