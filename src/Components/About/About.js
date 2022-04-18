@@ -1,11 +1,29 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
-   return (
-      <div>
-         <h1>You will create an about me page. It could be the about route. There will put your name and your image (picture is optional. However, if you put a photo, please put a professional look picture). And write a small paragraph (3-5 lines) about your goal. And how you will work hard to achieve your goal.</h1>
-      </div>
-   );
+  return (
+    <div>
+      <h1 className="text-center">
+        My name is <strong>Abdullah Al Mahmud</strong>
+      </h1>
+      <p className="mx-5">
+        I want to be web developer. Now i am learing code from Programing
+        hero..
+        I spend my whole day, practically every day,
+        experimenting with HTML, CSS, and JavaScript; dabbling with React and
+        Node; and inhaling a wide variety of potentially useless information
+        through a few hundred RSS feeds. I build websites that delight and
+        inform. I do it well. I’m curious, and I enjoy work that challenges me
+        to learn something new and stretch in a different direction. I do my
+        best to stay on top of changes in the state of the art so that I can
+        meet challenges with tools well suited to the job at hand. The list of
+        projects I follow on GitHub will give you a good idea of the types of
+        tools I’d prefer to be using, and my Instapaper “Starred” list will give
+        you a glimpse into the reading material I find interesting enough to
+        share.
+      </p>
+    </div>
+  );
 };
 
 export default About;
