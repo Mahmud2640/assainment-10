@@ -42,7 +42,7 @@ const Header = () => {
                 <button className="btn btn-danger" onClick={handleSignOut}>Sign Out</button>
                :
                 <Nav.Link as={Link} to="login">
-                  Log In
+                  <button className='btn btn-info'>Log In</button>
                 </Nav.Link>}
             </Nav>
           </Navbar.Collapse>

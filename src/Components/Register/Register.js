@@ -1,24 +1,29 @@
 import React, { useRef } from "react";
 import { Button, Form } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
-import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
+import SocialLogin from "../SocialLogin/SocialLogin";
+import Loading from "../Shared/Loading/Loading";
 
 const Register = () => {
   const [createUserWithEmailAndPassword, user, loading, error] =
-    useCreateUserWithEmailAndPassword(auth);
+    useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true});
+    const [updateProfile, updating, updateError] = useUpdateProfile(auth);
 
   const nameRef = useRef("");
   const emailRef = useRef("");
   const passwordRef = useRef("");
 
-  const handleRegister = (e) => {
+  const handleRegister = async (e) => {
     e.preventDefault();
     const name = nameRef.current.value;
     const email = emailRef.current.value;
     const password = passwordRef.current.value;
 
-    createUserWithEmailAndPassword(email, password);
+    await createUserWithEmailAndPassword(email, password);
+    await updateProfile({displayName: name});
+    navigate("/home");
   };
   const navigate = useNavigate();
   const navigateLogin = () => {
@@ -27,6 +32,9 @@ const Register = () => {
   if(user){
       navigate("/home");
   }
+  if(loading){
+    return <Loading></Loading>
+ }
 
   return (
     <div>
@@ -60,8 +68,8 @@ const Register = () => {
               required
             />
           </Form.Group>
-          <Button variant="primary" type="submit">
-            Submit
+          <Button variant="primary w-50 mx-auto d-block mb-2" type="submit">
+            Register
           </Button>
         </Form>
         <p className="text-1">
@@ -74,6 +82,7 @@ const Register = () => {
             Log In
           </Link>
         </p>
+        <SocialLogin></SocialLogin>
       </div>
     </div>
   );
