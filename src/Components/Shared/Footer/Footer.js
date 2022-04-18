@@ -13,13 +13,13 @@ const Footer = () => {
               <h3>Services</h3>
               <ul>
                 <li>
-                  <a href="#">Web design</a>
+                  <a href="#">Dental Support</a>
                 </li>
                 <li>
-                  <a href="#">Development</a>
+                  <a href="#">Medical Support</a>
                 </li>
                 <li>
-                  <a href="#">Hosting</a>
+                  <a href="#">Life Support</a>
                 </li>
               </ul>
             </div>
@@ -38,12 +38,10 @@ const Footer = () => {
               </ul>
             </div>
             <div className="col-md-6 item text">
-              <h3>Company Name</h3>
+              <h3>Doctor-Talk</h3>
               <p>
-                Praesent sed lobortis mi. Suspendisse vel placerat ligula.
-                Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis
-                tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel
-                in justo.
+              Consult to verified doctors online through chat or call and get answers to all your healthcare-related queries online. Talk to a doctor and get a response.
+              When you were younger, your parents made the decisions about your health. They set up your doctor visits and did all the talking for you...
               </p>
             </div>
             <div className="col item social">
@@ -61,7 +59,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <p className="copyright">Company Name © {year}</p>
+          <p className="copyright">Doctor-Talk © {year}</p>
         </div>
       </footer>
     </div>

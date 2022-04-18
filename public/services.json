@@ -1,44 +1,44 @@
 [
    {
        "id": 1,
-       "name": "ENGINE DIAGNOSTIC",
-       "price": "300",
-       "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+       "name": "Teeth Cleanings",
+       "price": "$200",
+       "description": "This is by far the most common reason people visit the dentist. Many dentists recommend a cleaning every six months, and some recommend once a year. Either way, it’s a very important part of oral health. Your own toothbrush will never be as efficient as the tools a dentist uses to clean your teeth.",
        "img": "https://i.ibb.co/Y8gjjTb/image-1-1.jpg"
    },
    {
        "id": 2,
-       "name": "WHEEL ALIGNMENT",
-       "price": "100",
-       "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+       "name": "Teeth Whitening",
+       "price": "$150",
+       "description": "Extractions sound scary and painful. Admittedly, they are not the most pleasant of procedures. However, your dentist will do everything in their power to help you feel comfortable. You may need an extraction for any number of reasons. Your own toothbrush will never be as efficient as the. ",
        "img": "https://i.ibb.co/W5xy5gW/toothcolor-1.png"
    },
    {
        "id": 3,
-       "name": "OIL CHANGING",
-       "price": "150",
-       "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+       "name": "Extractions ",
+       "price": "$250",
+       "description": "Some people are sensitive to the whitening agents used, but otherwise it’s an easy procedure that most dental offices can do. At home teeth whitening kits involve a lot of extra time and effort. You need to buy kits and spend a lot of time. easy procedure that most dental offices can do. At home teeth..",
        "img": "https://i.ibb.co/Qv8W4Km/photo-1606811951341-756fdd437682-1.png"
    },
    {
        "id": 4,
-       "name": "BRAKE REPARING",
-       "price": "180",
-       "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+       "name": "Fillings",
+       "price": "$180",
+       "description": "Cavities are all too common and all too easy to get. For most cavities, a filling is the recommended answer. Acids in food and inside your body can easily break down tooth enamel if overexposed. a filling is the recommended answer. Acids in food and inside your body can easily break down tooth enamel.",
        "img": "https://i.ibb.co/N2fxKzB/dental-1-1.png"
    },
    {
        "id": 5,
-       "name": "WASH AND GLASSING",
-       "price": "100",
-       "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+       "name": "Root Canal",
+       "price": "$500",
+       "description": "Root canals are usually preceded by some pretty awful tooth pain. A root canal means the tissue inside or under your tooth is infected and inflamed. To get rid of the pain, the dentist needs to deaden the nerve and remove the tissue. Sometimes you may need to take an antibiotic before the procedure.",
        "img": "https://i.ibb.co/zN3JqQ6/single-sitting-root-canal-treatment-500x500-1-1.png"
    },
    {
        "id": 6,
-       "name": "COMPLETE ANALYSIS",
-       "price": "300",
-       "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+       "name": "Dentures",
+       "price": "$300",
+       "description": "Dentures are usually associated with ageing, but a lot of people may need dentures. They are meant to replace teeth in a natural way, and they’re typically removable. They’re also a great way to get rid of bad teeth. They’re also a great way to get rid of bad teeth. Dentures are usually associated..",
        "img": "https://i.ibb.co/Y3B4vP2/istockphoto-944526554-612x612-1.png"
    }
 ]
